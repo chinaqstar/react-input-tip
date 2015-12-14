@@ -58,3 +58,5 @@ const routes = {
 
 React.render(<Router history={history} routes={routes} />, document.body);
 ```
+
+![example view](http://git.oschina.net/uploads/images/2015/1214/143604_46082b35_300773.jpeg "example view")
