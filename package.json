@@ -1,0 +1,23 @@
+{
+  "name": "react-input-tip",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "style": "dist/react-input-tip.min.css",
+  "description": "react input-tip component based on react-bootstrap",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.26.4",
+    "classnames": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^4.7.16"
+  },
+  "scripts": {
+    "build": "babel lib/InputTip.jsx > dist/index.js"
+  },
+  "author": "chinaqstar <chinaqstar@gmail.com>",
+  "license": "MIT"
+}
